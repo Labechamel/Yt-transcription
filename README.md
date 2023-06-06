@@ -102,7 +102,7 @@ python main.py
 - Choose your level of Whiisper, past your Youtube url and then press "enter" or  "start button".
 
 
-[![Demo Yt-transcription](http://share.gifyoutube.com/KzB6Gb.gif)](https://github.com/Labechamel/Yt-transcription/blob/master/github_img/exemple.gif)
+[Demo Yt-transcription](https://github.com/Labechamel/Yt-transcription/blob/master/github_img/exemple.gif)
 
 
 - Go to the folder video and enjoy your video with subtitle. 
