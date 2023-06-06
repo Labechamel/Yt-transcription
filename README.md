@@ -91,7 +91,7 @@ For example, if your GPU has 6 GB of RAM, you can choose the "small" level for a
 
 - Download or clone this projet with this command :
 ```bash
-git clone ............
+git clone https://github.com/Labechamel/Yt-transcription
 ```
 
 - Launch the project by running the following command in your terminal or command prompt:
