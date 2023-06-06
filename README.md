@@ -12,7 +12,6 @@ The benefit of this approach is that when you play the video using VLC media pla
 To utilize this functionality, the application relies on the Whisper library from OpenAI. It is important to note that the project was developed and tested on a computer with a 6 GB NVIDIA GPU and CUDA installed, along with the Whisper library.
 
 
-
 ## Features
 
 - Download videos from various websites, including YouTube (using the yt-dlp library).
@@ -38,6 +37,8 @@ To utilize this functionality, the application relies on the Whisper library fro
 Please ensure that you have an active internet connection to download videos from supported websites & Whisper installed on your system and working on your system. 
 
 Please note that while Whisper relies on GPU acceleration, it may also be possible to run the project in CPU mode. However, performance may be significantly reduced without a compatible GPU.
+
+
 ## Prerequisites installation
 
 **To run this project, you'll need to follow these steps:**
@@ -62,6 +63,7 @@ Install [CUDA](https://developer.nvidia.com/cuda-downloads?target_os=Windows&tar
 
 Install [PyTorch](https://pytorch.org/get-started/locally/) by visiting the PyTorch website and following the installation instructions specific to your platform.
 
+
 ## Configuration
 
 **Before using this project, you need to perform the following configurations:**
@@ -83,6 +85,8 @@ If your GPU has less than 5 GB of RAM, it is recommended to use lower Whisper le
 Configure the project to use the desired Whisper level. You can modify the configuration file or the relevant parameter in your project's code to specify the desired level based on your GPU's VRAM size.
 
 For example, if your GPU has 6 GB of RAM, you can choose the "small" level for a good balance between transcription quality and memory usage but you can also choose "medium" for a higher quality.
+
+
 ## Usage
 
 **To use this project, follow these steps:**
@@ -106,26 +110,30 @@ python main.py
 
 
 - Go to the folder video and enjoy your video with subtitle. 
+
+
 ## Next step
 
-
-
-- [ ]  **Translation Feature**
+- [ ]  **Translation Feature :**
 Implement a translation feature using services like Google Translate or DeepL to enable users to translate the subtitles into different languages.
 
-- [ ]  **User Interface Enhancements**
+- [ ]  **User Interface Enhancements :**
 Improve the user interface to enhance usability and provide a more intuitive experience for users.
 
-- [ ]  **Dark Mode**
+- [ ]  **Dark Mode :**
 Add a dark mode theme option to the user interface, providing a visually pleasing alternative for users who prefer dark backgrounds.
 
-- [ ]  **Download and Transcription Progress**
+- [ ]  **Download and Transcription Progress :**
 Incorporate progress bars or indicators to display the download and transcription progress in real-time. This will provide users with visual feedback on the status of these processes. If translation is implemented, a progress bar for the translation process can also be included.
+
+
 ## Contribution
 
 `Contributions` and `improvements` to this project are welcome. If you have any suggestions, bug fixes, or new features to propose, please feel free to submit a pull request or open an issue on the project's GitHub repository. Your contributions will be reviewed and considered for incorporation into the project.
 
 `I appreciate your help in making this project even better!`
+
+
 ## Author
 
 This project was developed by Labechamel. 
