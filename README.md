@@ -70,7 +70,7 @@ Install [PyTorch](https://pytorch.org/get-started/locally/) by visiting the PyTo
 
 Make sure you have a machine with a compatible NVIDIA GPU and CUDA installed. The GPU memory size is important in determining the Whisper level you can effectively utilize.
 
-If your GPU has 6 GB of RAM or more, you can typically use higher Whisper levels for better transcription quality. Here are the recommended levels:
+If your GPU has 6 GB of RAM or more, you can typically use medium Whisper levels for better transcription quality. Here are the recommended levels:
 
 |  Size  | Parameters | Multilingual model | Required VRAM | Relative speed |
 |:------:|:----------:|:------------------:|:-------------:|:--------------:|
