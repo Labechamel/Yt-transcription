@@ -101,7 +101,7 @@ python main.py
 
 - Choose your level of Whiisper, past your Youtube url and then press "enter" or  "start button".
 
----video----
+https://github.com/Labechamel/Yt-transcription/blob/master/github_img/exemple.mp4
 
 - Go to the folder video and enjoy your video with subtitle. 
 ## Next step
