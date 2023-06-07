@@ -5,6 +5,10 @@
 
 This project is a Python application that allows you to download videos from various websites, with a particular focus on YouTube. It utilizes the yt-dlp library to handle the video downloading process. The program features a graphical user interface (GUI) built with Qt, providing a user-friendly way to download videos.
 
+This project has been designed with the aim of making internet videos accessible to the hearing-impaired community and ensuring worldwide access to online videos, irrespective of the spoken language. By integrating video downloading, transcription, and subtitle generation capabilities, this project empowers individuals with hearing impairments to engage with online video content. 
+
+Additionally, with the inclusion of translation features, it enables users to transcend language barriers and enjoy videos from across the globe. Through these efforts, the project strives to foster inclusivity, break down communication barriers, and create a more inclusive online environment
+
 One of the main functionalities of this application is the ability to select the Whisper speech recognition model's confidence level. By specifying the desired confidence level, the application can transcribe the audio of the downloaded video and generate corresponding subtitle files. These subtitle files are then placed in the same directory as the downloaded video.
 
 The benefit of this approach is that when you play the video using VLC media player, the .str subtitle file is automatically recognized and synchronized with the video based on the correct time codes, providing an enhanced viewing experience.
