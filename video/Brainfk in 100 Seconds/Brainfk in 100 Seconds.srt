@@ -1,0 +1,84 @@
+00:00:00,000 --> 00:00:04,000
+ Brainfuck, a minimal esoteric programming language designed to make your brain hurt.
+
+00:00:04,000 --> 00:00:09,000
+ It's Turing-complete, but not designed to build actual software. It's more like a work of art
+
+00:00:09,000 --> 00:00:14,000
+ that challenges the status quo. It was created in 1993 by Swiss physics student Urban Mueller,
+
+00:00:14,000 --> 00:00:18,000
+ where the goal was to create a language with the smallest possible compiler. It was built for the
+
+00:00:18,000 --> 00:00:24,000
+ Amiga 2.0 operating system, and the compiler weighs in at under 200 bytes. A Brainfuck program
+
+00:00:24,000 --> 00:00:28,000
+ starts with a 30,000 byte one-dimensional array. All values are initialized to zero,
+
+00:00:28,000 --> 00:00:32,000
+ then it provides a movable pointer that you can manipulate with eight different commands.
+
+00:00:32,000 --> 00:00:37,000
+ Use angle brackets to move the pointer left or right by one cell at a time, then increment or
+
+00:00:37,000 --> 00:00:42,000
+ decrement the value in a cell using plus or minus. Use a period to output the byte at the
+
+00:00:42,000 --> 00:00:46,000
+ pointer's current location, or use a comma to accept input and store it at the pointer's
+
+00:00:46,000 --> 00:00:51,000
+ current location. And finally, use opening and closing brackets to create a loop.
+
+00:00:51,000 --> 00:00:55,000
+ Notice how Brainfuck doesn't require silly things like variables, functions, and classes.
+
+00:00:55,000 --> 00:00:59,000
+ To get started with Brainfuck, delete your operating system and install Amiga OS,
+
+00:00:59,000 --> 00:01:04,000
+ then create a file ending in .bf, which stands for Brainfuck. Any characters that are not the
+
+00:01:04,000 --> 00:01:09,000
+ 8 I mentioned previously will be ignored as a comment. At this point, we have an array with
+
+00:01:09,000 --> 00:01:14,000
+ 30,000 8-bit numbers, all set to zero. To say hi mom, we'll need to set each number to its
+
+00:01:14,000 --> 00:01:19,000
+ corresponding ASCII character. We can increment the first cell, then enter a loop with an opening
+
+00:01:19,000 --> 00:01:23,000
+ bracket. For each iteration of the loop, we'll decrement the current cell by 5, then use an
+
+00:01:23,000 --> 00:01:28,000
+ angle bracket to move one cell to the right. We'll increment that cell by 3, then move back to the
+
+00:01:28,000 --> 00:01:32,000
+ left and close the loop. The loop will continue until the original cell goes back to zero,
+
+00:01:32,000 --> 00:01:37,000
+ at which point it will exit. We now have a value of 103 at index 1. We can move the pointer to it,
+
+00:01:37,000 --> 00:01:42,000
+ increment it to 104, then use a period to output it. That corresponds to the letter H in ASCII.
+
+00:01:42,000 --> 00:01:47,000
+ We can increment it again to get 105, which corresponds to the letter I. Now we continue
+
+00:01:47,000 --> 00:01:51,000
+ this process of manipulating memory like cavemen until we output all the characters that we need.
+
+00:01:51,000 --> 00:01:56,000
+ Now to run your code, use right click, copy, and paste it into one of the many online interpreters.
+
+00:01:56,000 --> 00:02:01,000
+ Congratulations, you just said hi to your mom in brainfuck. This has been Brainfuck in 100
+
+00:02:01,000 --> 00:02:05,000
+ seconds. If you want to see more Brainfuck content on this channel, make sure to hit the like button
+
+00:02:05,000 --> 00:02:09,000
+ and subscribe. Thanks for watching, and I will see you in the next one.
+
